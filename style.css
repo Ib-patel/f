@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: dodgerblue;
+    font-family: 'Jost', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    height: 62px;
+    display: flex;
+    align-self: center;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 22px;
+    border-radius: 7px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Jost', sans-serif;
+}
+
+.slider {
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Jost', sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /*  justify-content: center; */
+    overflow: hidden;
+    
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-item:hover {
+    transform: scale(1.2);
+}
+
+.card h2 {
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+    height: 12vh;
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
